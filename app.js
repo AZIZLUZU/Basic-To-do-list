@@ -23,12 +23,12 @@ function addtask (){
   // delete button
   const b = document.createElement('button');
   b.setAttribute("onclick", "d(this)");
-  b.innerHTML="x"
+  b.innerHTML='<img src="trash-can.png">'
   b.setAttribute("class", "delete");
   //update button
   const m = document.createElement('button');
   m.setAttribute("onclick", "u(this)");
-  m.innerHTML="u"
+  m.innerHTML='<img src="pencil.png">'
   m.setAttribute("class", "update");
   //add to li
   entry.appendChild(ch);

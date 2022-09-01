@@ -40,30 +40,37 @@ transition-duration: 0.4s;
 }
 
 .button:hover {
-background-color: #4CAF50; /* Green */
-color: white;
+      /* Green */
+color: green;
 }
 .button {
 background-color: white;
 color: black;
-border: 2px solid #4CAF50; /* Green */
+border: 0; /* Green */
+width: auto;
+height: auto;
+cursor: pointer;
+
 }
 .update{
-    border-color: orange;
-    border-radius: 30px;
+    border: 0cm;
+    background-color: white;
+    cursor: pointer;
 }
 .update:hover{
-    background-color: orange;
+    
     color: white;
 }
 .delete{
-    border-color: red;
-    border-radius: 30px;
+    border: 0cm;
+    background-color: white;
+    cursor: pointer;
     
+   
 
 }
 .delete:hover{
-background-color: red;
+
 color:white;
 }
 
